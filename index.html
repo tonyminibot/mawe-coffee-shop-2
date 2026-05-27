@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ember & Oak — a cozy downtown coffee shop. Slow mornings, strong coffee, and good company on Maple Street." />
+  <title>Ember & Oak · Downtown Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="brand">
+      <span class="brand-mark">☕</span>
+      <span class="brand-text">Ember <em>&amp;</em> Oak</span>
+    </a>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#hours">Hours</a>
+      <a href="#contact">Visit</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Downtown · Est. 2014</p>
+        <h1>
+          Ember <span class="amp">&amp;</span> Oak
+          <span class="hero-sub">Coffee House</span>
+        </h1>
+        <p class="tagline">Slow mornings. Strong coffee. Good company.</p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary">See the menu</a>
+          <a href="#contact" class="btn btn-ghost">Find us →</a>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- INTRO STRIP -->
+    <section class="strip">
+      <div class="strip-item"><span>🌱</span> Single-origin beans</div>
+      <div class="strip-item"><span>🥐</span> Pastries baked daily</div>
+      <div class="strip-item"><span>📚</span> Free Wi-Fi, no rush</div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section">
+      <header class="section-head">
+        <p class="eyebrow">The Menu</p>
+        <h2>Highlights from the bar</h2>
+        <p class="lede">Roasted in-house every Tuesday. Pulled with care every morning after.</p>
+      </header>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Oak Latte</h3>
+            <span class="price">$5.25</span>
+          </div>
+          <p>Double shot of our house blend, steamed oat milk, a whisper of brown sugar &amp; smoked oak syrup.</p>
+          <span class="tag">House Favorite</span>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Ember Mocha</h3>
+            <span class="price">$5.75</span>
+          </div>
+          <p>Dark chocolate ganache, espresso, steamed milk, finished with a flash of cinnamon &amp; sea salt.</p>
+          <span class="tag">Cozy</span>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Maple Cortado</h3>
+            <span class="price">$4.75</span>
+          </div>
+          <p>Equal parts espresso and silky milk, sweetened with a touch of Vermont maple. Served in glass.</p>
+          <span class="tag">New</span>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Slow Pour Drip</h3>
+            <span class="price">$4.00</span>
+          </div>
+          <p>Hand-poured single origin — rotating weekly. Ask the barista what's on the bar today.</p>
+          <span class="tag">Pour-over</span>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Cardamom Bun</h3>
+            <span class="price">$4.50</span>
+          </div>
+          <p>Flaky, twisted, generously buttered. Baked at 5am. Best with anything on this menu.</p>
+          <span class="tag">Bakery</span>
+        </article>
+
+        <article class="menu-card">
+          <div class="menu-card-head">
+            <h3>Cold Brew Tonic</h3>
+            <span class="price">$5.50</span>
+          </div>
+          <p>16-hour cold brew, sparkling tonic, fresh orange peel. Bright, bubbly, surprising.</p>
+          <span class="tag">Summer</span>
+        </article>
+      </div>
+
+      <p class="menu-foot">Full menu at the counter — including teas, matcha, drip refills, and seasonal specials.</p>
+    </section>
+
+    <!-- HOURS + CONTACT -->
+    <section id="hours" class="section section-warm">
+      <div class="two-col">
+        <div class="hours-card">
+          <p class="eyebrow">Open this week</p>
+          <h2>Hours</h2>
+          <ul class="hours-list">
+            <li><span>Monday</span><span>6:30a – 6:00p</span></li>
+            <li><span>Tuesday</span><span>6:30a – 6:00p</span></li>
+            <li><span>Wednesday</span><span>6:30a – 6:00p</span></li>
+            <li><span>Thursday</span><span>6:30a – 8:00p</span></li>
+            <li><span>Friday</span><span>6:30a – 8:00p</span></li>
+            <li><span>Saturday</span><span>7:30a – 8:00p</span></li>
+            <li><span>Sunday</span><span>7:30a – 4:00p</span></li>
+          </ul>
+          <p class="note">Closed on major holidays. Last pour 15 minutes before close.</p>
+        </div>
+
+        <div id="contact" class="contact-card">
+          <p class="eyebrow">Come say hi</p>
+          <h2>Visit us</h2>
+          <address>
+            <p class="addr-line"><strong>247 Maple Street</strong><br />Downtown, Suite A</p>
+            <p>
+              <a href="tel:+15551234567">(555) 123-4567</a><br />
+              <a href="mailto:hello@emberandoak.coffee">hello@emberandoak.coffee</a>
+            </p>
+          </address>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <span>·</span>
+            <a href="#" aria-label="TikTok">TikTok</a>
+            <span>·</span>
+            <a href="#" aria-label="Spotify">Our Playlist</a>
+          </div>
+          <a href="#" class="btn btn-primary btn-block">Get directions</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Ember &amp; Oak Coffee House · Made with warmth on Maple Street.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
